@@ -1,0 +1,40 @@
+{
+  "employees": [
+    {
+      "id": "E001",
+      "name": "Tony Stark",
+      "dept": "Engineering",
+      "leaveBalance": 11
+    },
+    {
+      "id": "E002",
+      "name": "Bruce Wayne",
+      "dept": "Sales",
+      "leaveBalance": 10
+    },
+    {
+      "id": "E003",
+      "name": "Chris Evans",
+      "dept": "HR",
+      "leaveBalance": 8
+    }
+  ],
+  "leaves": [
+    {
+      "id": "L1001",
+      "employeeId": "E001",
+      "from": "2025-08-26",
+      "to": "2025-08-28",
+      "days": 3,
+      "status": "approved"
+    },
+    {
+      "id": "L1002",
+      "employeeId": "E002",
+      "from": "2025-09-02",
+      "to": "2025-09-03",
+      "days": 2,
+      "status": "pending"
+    }
+  ]
+}
